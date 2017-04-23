@@ -13,13 +13,15 @@ This cycle is also known as _Red/Green/Refactor_
 ![red/green/refactor](http://marcabraham.files.wordpress.com/2012/04/06_red_green_refactor.jpg)
   
 ## Code Example
-You are to write a `toWords` method that takes an `int` as a parameter and returns the English `String` of the given number. 
+You are to write a `toWords` method that takes an `int` as a parameter and returns the English `String` of the given number.  
+  
 Example:  
-| Given| Expected Result|
-| ------------- |:-------------:|  
-| `0`| `zero`|
-| `999`|`nine hundred ninety-nine`|
-| `701020` |`seven hundred one thousand twenty`|
+
+| Given         | Expected Result |
+| ------------- |---------------- |
+| `0`           | `zero`          |
+| `999`         | `nine hundred ninety-nine`|
+| `701020`      | `seven hundred one thousand twenty`|
 
 There are `14` test-cases already provided, the first `13` are marked with an `@Ignore` and will not be run. Remove each `@Ignore` with each passing test.
 
