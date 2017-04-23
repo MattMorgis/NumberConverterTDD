@@ -24,7 +24,3 @@ fi
 
 # Run the tests!
 java -cp build/test/:build/production/:lib/junit-4.10.jar org.junit.runner.JUnitCore NumberConverterTest
-if [ $? -ne 0 ]; then
-    echo 'Failed to Run Tests :('
-    exit $?
-fi
