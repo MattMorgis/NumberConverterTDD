@@ -16,11 +16,11 @@ if [ $? -ne 0 ]; then
 fi
 
 # Compile test code
-javac -d build/test/ -cp lib/junit-4.10.jar:build/production test/*
+javac -d build/test/ -cp build/production:lib/junit-4.12.jar:lib/hamcrest-core-1.3.jar test/*
 if [ $? -ne 0 ]; then
     echo 'Test Code Failed to Compile!'
     exit $?
 fi
 
 # Run the tests!
-java -cp build/test/:build/production/:lib/junit-4.10.jar org.junit.runner.JUnitCore NumberConverterTest
+java -cp build/test/:build/production/:lib/junit-4.12.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore NumberConverterTest
