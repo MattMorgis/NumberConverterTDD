@@ -28,7 +28,10 @@ There are `14` test-cases already provided, the first `13` are marked with an `@
 ## Installation
 
 #### With an IDE
-The project can be easily opened and run in the `IntelliJ IDEA` editor. A free open-sourced Community Edition can be [downloaded here](https://www.jetbrains.com/idea/#chooseYourEdition). 
+The project can be easily opened and run in the `IntelliJ IDEA` editor. A free open-sourced Community Edition can be [downloaded here](https://www.jetbrains.com/idea/#chooseYourEdition). Simply right click on the `NumberConverterTest` class and select
+```
+Run 'NumberConverterTest'
+```
 
 #### Without an IDE
 A version of the JUnit library has been included with the project for easy setup and execution out of the box. Simply edit `NumberConverter.java` and the corresponding test class in any text editor and execute the tests with the following command:
